@@ -48,4 +48,4 @@ if __name__ == "__main__":
     print(f"Part 1 solution: {part1(path, graph)}")
 
     # Part 2
-    print(f"Part 1 solution: {part2(path, graph)}")
+    print(f"Part 2 solution: {part2(path, graph)}")
