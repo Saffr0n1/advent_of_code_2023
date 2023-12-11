@@ -77,7 +77,7 @@ def score_hands(hand_score, part):
 
     for key in ranked_hands.keys():
         ranked_hands[key] = sorted(
-            ranked_hands[key], key=cmp_to_key(lambda x, y: break_ties(x[0], y[0], part))
+            ranked_hands[key], key=cmp_to_key(lambda x, y: break_ties(x[0], y[0], part)) # type: ignore
         )
 
     max_score = len(hand_score)
