@@ -82,7 +82,7 @@ def part2(nums, symbols):
 
 
 if __name__ == "__main__":
-    fpath = r"C:\Users\Abi\Documents\GitHub\advent_of_code_2023\day3\input.txt"
+    fpath = r"path_to_file.txt"
     nums, symbols = parse_input(fpath)
 
     # Part 1

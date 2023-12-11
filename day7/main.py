@@ -91,7 +91,7 @@ def score_hands(hand_score, part):
 
 
 if __name__ == "__main__":
-    fpath = r"C:\Users\Abi\Documents\GitHub\advent_of_code_2023\day7\input.txt"
+    fpath = r"path_to_file.txt"
     with open(fpath, "r") as file:
         input = [(line[:-1] if "\n" in line else line) for line in file.readlines()]
     hand_score = [[num.split()[0], int(num.split()[1])] for num in input]

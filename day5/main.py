@@ -129,7 +129,7 @@ def part2(seeds, graph, part_1_ans):
 
 if __name__ == "__main__":
     # Parse inputs
-    fpath = r"C:\Users\Abi\Documents\GitHub\advent_of_code_2023\day5\input.txt"
+    fpath = r"path_to_file.txt"
     seeds, graph = parse_input(fpath)
 
     # Part 1

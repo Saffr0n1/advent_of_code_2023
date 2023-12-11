@@ -27,7 +27,7 @@ def part2(input):
 
 
 if __name__ == "__main__":
-    fpath = r"C:\Users\Abi\Documents\GitHub\advent_of_code_2023\day6\input.txt"
+    fpath = r"path_to_file.txt"
     with open(fpath, "r") as file:
         input = [(line[:-1] if "\n" in line else line) for line in file.readlines()]
 

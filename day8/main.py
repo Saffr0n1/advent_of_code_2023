@@ -41,7 +41,7 @@ def part2(path, graph):
 
 
 if __name__ == "__main__":
-    fpath = r"C:\Users\Abi\Documents\GitHub\advent_of_code_2023\day8\input.txt"
+    fpath = r"path_to_file.txt"
     path, graph = parse_input(fpath)
 
     # Part 1
