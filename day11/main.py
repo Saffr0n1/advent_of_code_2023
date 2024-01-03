@@ -68,7 +68,7 @@ def all_pairs_galaxy_distances(galaxies):
 
 
 if __name__ == "__main__":
-    fpath = r"/Users/saffron/Documents/Github/advent_of_code_2023/day11/input.txt"
+    fpath = r"path_to_file.txt"
     with open(fpath, "r") as file:
         input = [(line[:-1] if "\n" in line else line) for line in file.readlines()]
 

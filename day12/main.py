@@ -87,7 +87,7 @@ def cached_count(input, groups):
 
 
 if __name__ == "__main__":
-    fpath = r"/Users/saffron/Documents/Github/advent_of_code_2023/day12/input.txt"
+    fpath = r"path_to_file.txt"
     with open(fpath, "r") as file:
         input = [
             (line[:-1].split() if "\n" in line else line.split())
