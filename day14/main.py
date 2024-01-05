@@ -38,7 +38,7 @@ def rotate_90_ccw(matrix):
 
 
 if __name__ == "__main__":
-    fpath = r"/Users/saffron/Documents/Github/advent_of_code_2023/day14/input.txt"
+    fpath = r"path_to_file.txt"
     with open(fpath, "r") as file:
         lines = [line.strip() for line in file.readlines()]
 
