@@ -112,4 +112,4 @@ if __name__ == "__main__":
     visited_matrix = fill_contraption(grid, start=Beam(0, -1, 0, 1))
 
     print(f"Part 1 solution: {get_energized(visited_matrix)}")
-    print(f"Part 1 solution: {custom_start(grid)}")
+    print(f"Part 2 solution: {custom_start(grid)}")
