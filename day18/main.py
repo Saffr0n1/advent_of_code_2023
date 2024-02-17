@@ -37,7 +37,7 @@ def shoelace(boundary):
 
 
 if __name__ == "__main__":
-    fpath = r"C:\Users\Abi\Documents\GitHub\advent_of_code_2023\day18\input.txt"
+    fpath = r"path_to_file.txt"
     with open(fpath, "r") as file:
         commands = [
             [parts[0], int(parts[1]), parts[2].strip("()")]
