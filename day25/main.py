@@ -31,7 +31,7 @@ def rand_alg(graph):
 
 if __name__ == "__main__":
     graph = defaultdict(set)
-    fpath = r"C:\Users\Abi\Documents\GitHub\advent_of_code_2023\day25\input.txt"
+    fpath = r"path_to_file.txt"
     for line in open(fpath, "r"):
         k, *v_list = line.replace(":", "").split()
         for v in v_list:
