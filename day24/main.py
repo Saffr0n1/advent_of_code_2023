@@ -1,5 +1,4 @@
 import numpy as np
-import sympy
 
 MIN_BOUND, MAX_BOUND = 0, 0
 
